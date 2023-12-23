@@ -1,0 +1,18 @@
+[target.wasm32-unknown-emscripten]
+rustflags = [
+    "-C",
+    "link-arg=-lnodefs.js",
+    "-C",
+    "link-arg=-lnoderawfs.js",
+    "-C",
+    "link-arg=-sALLOW_MEMORY_GROWTH",
+    "-C",
+    "link-arg=-sEXIT_RUNTIME=1",
+    # "-C",
+    # "link-arg=-sSTRICT=1",
+]
+runner = "node"
+
+[env]
+# EMCC_STRICT="1"
+RUST_BACKTRACE="1"
