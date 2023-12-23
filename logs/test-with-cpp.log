@@ -1,7 +1,7 @@
-"src/bin"
-"src/bin/metadata.rs"
-"src/bin/mount.rs"
-"src/bin/stdinout.rs"
-"src/bin/tree1.rs"
-"src/bin/tree2.rs"
-"src/lib.rs"
+"src/bin" 1
+"src/bin/metadata.rs" 0 781
+"src/bin/mount.rs" 0 366
+"src/bin/stdinout.rs" 0 373
+"src/bin/tree1.rs" 0 140
+"src/bin/tree2.rs" 0 140
+"src/lib.rs" 0 850
